@@ -1,9 +1,12 @@
 # SisDoa - Sistema de Controle de Doações
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/sisdoa)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Duduferalves/sisdoa)
 [![Python](https://img.shields.io/badge/python-3.12+-green.svg)](https://www.python.org/)
-[![CI](https://github.com/yourusername/sisdoa/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/sisdoa/actions)
+[![CI](https://github.com/Duduferalves/sisdoa/actions/workflows/ci.yml/badge.svg)](https://github.com/Duduferalves/sisdoa/actions)
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+
+## Publicação
+Aplicação disponível em: https://seu-deploy-link-publico
 
 ## Sobre o Projeto
 
@@ -68,7 +71,7 @@ src/sisdoa/
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/yourusername/sisdoa.git
+   git clone https://github.com/Duduferalves/sisdoa.git
    cd sisdoa
    ```
 
