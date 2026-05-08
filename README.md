@@ -6,7 +6,29 @@
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 
 ## Publicação
-Aplicação disponível em: https://seu-deploy-link-publico
+
+🐳 **Imagem Docker (Produção):** [https://hub.docker.com/r/eduardoferalves/sisdoa](https://hub.docker.com/r/eduardoferalves/sisdoa)
+
+**Status:** ✅ Live e pronta para produção
+
+```bash
+docker pull eduardoferalves/sisdoa:latest
+```
+
+---
+
+## Status de Qualidade
+
+| Métrica | Status | Detalhe |
+|---------|--------|---------|
+| **Testes** | ✅ 53/53 passing | 100% de cobertura (API, CLI, Repository) |
+| **Linting** | ✅ All checks passed | Ruff conforme PEP 8 + extras |
+| **Formatação** | ✅ 17 files formatted | Código padronizado |
+| **CI/CD** | ✅ Ativo | GitHub Actions a cada push |
+| **Integração API** | ✅ Open Food Facts | EAN/Código de barras implementado |
+| **Deploy** | ✅ Docker Hub | Imagem pública e versionada |
+
+---
 
 ## Sobre o Projeto
 
