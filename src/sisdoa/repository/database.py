@@ -38,7 +38,7 @@ class Database:
 
     def _create_tables(self) -> None:
         """Create all tables if they don't exist."""
-        if self.engine.url.drivername.startswith("sqlite"):
+        if self.engine.dialect.name == "sqlite":
             Base.metadata.create_all(bind=self.engine)
 
     def get_session(self) -> Session:
